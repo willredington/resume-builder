@@ -1,0 +1,43 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "strict": true,
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@resume-builder/frontend/customer/feat-dashboard": [
+        "libs/frontend/customer/feat-dashboard/src/index.ts"
+      ],
+      "@resume-builder/frontend/customer/feat-resume-builder": [
+        "libs/frontend/customer/feat-resume-builder/src/index.ts"
+      ],
+      "@resume-builder/frontend/customer/feat-resume-template": [
+        "libs/frontend/customer/feat-resume-template/src/index.ts"
+      ],
+      "@resume-builder/frontend/customer/util-store": [
+        "libs/frontend/customer/util-store/src/index.ts"
+      ],
+      "@resume-builder/frontend/shared/ui-common": [
+        "libs/frontend/shared/ui-common/src/index.ts"
+      ],
+      "@resume-builder/frontend/shared/ui-theme": [
+        "libs/frontend/shared/ui-theme/src/index.ts"
+      ],
+      "@resume-builder/shared/customer/util-resume": [
+        "libs/shared/customer/util-resume/src/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
